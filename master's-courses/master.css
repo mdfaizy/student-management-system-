@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,800&family=Heebo:wght@300&family=Libre+Franklin:ital,wght@0,500;1,200;1,600&family=Poppins:ital,wght@0,600;0,700;0,800;1,400;1,600;1,800&family=Roboto:ital,wght@0,400;0,900;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("new_background.jpg");
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(29, 253, 251, 1) 44%, rgba(252, 176, 69, 1) 100%);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.box {
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 10px;
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(95,95,163,1) 35%, rgba(4,215,245,1) 100%); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 215, 245, 1) 0%, rgba(163, 163, 190, 1) 38%);
+}
+
+.box h1 {
+    color: black;
+    text-shadow: #ccc;
+}
+
+.title_small {
+    font-size: 20px;
+}
+
+.master .title {
+    color: rgb(126, 121, 121);
+    text-shadow: #ccc;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form_container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 2px 1px #ccc;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: rgb(55, 37, 37);
+}
+
+input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.textarea_control {
+    grid-column: 1 / span 3;
+}
+
+.sumbit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(47, 54, 47);
+    border: transparent solid 2px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+}
+
+button:hover {
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
