@@ -101,23 +101,8 @@
                             <li><a class="master" href="../master's-courses/master.php">Master's</a></li>
                             <li><input type="submit" class="w3-btn w3-teal" name="file_submit" value="SUBMIT"></li>
                             <li><a class="job" href="../Job/job.php">Job </a></li>
-                        </ul>
-
-
-                        <!-- <select id="my_selection" class="select">
-              <option hidden value="default">Select An Option</option>
-              <option class="w3-btn w3-teal" name="file_submit">Sumbit</option>
-              <option value="Master's" class="master" href="../master's-courses/master.php">Master's</option>
-
-              <option value="Job" class="job" href="../Job/job.php">Job</option>
-              </select> -->
+                              </ul>
                     </div>
-                   
-
-
-                    <!-- </div>  -->
-
-                    <!-- </div> -->
         </form>
  </div>
 </body>

@@ -62,6 +62,7 @@ if (isset($_POST["submit"])) {
                 mysqli_stmt_bind_param($stmt, "sss", $fullName, $email, $passwordHash);
                 mysqli_stmt_execute($stmt);
                 echo "<div class='alert alert-success'>You are registered successfully.</div>";
+                header("Location: index.php");
             } else {
                 die("Database insertion failed");
             }
@@ -70,14 +71,11 @@ if (isset($_POST["submit"])) {
                 echo "<div class='alert alert-danger'>$error</div>";
             }
         }
-
         // Close database connection
         mysqli_close($conn);
     }
 }
 ?>
-
-        
         <form action="registration.php" method="post">
             <div class="form-group">
             <label for="enter-name" class="name">Enter Your Name</label>
@@ -100,9 +98,9 @@ if (isset($_POST["submit"])) {
                 <input type="submit" class="btn btn-primary" value="Register" name="submit">
             </div>
          </form>
-        <div>
-        <div><p>Already Registered <a href="login.php">Login Here</a></p></div>
-      </div>
+        <!-- <div>
+        <div><p>Already Registered <a href=".login.php">Login Here</a></p></div>
+      </div> -->
     </div>
 </body>
 </html>

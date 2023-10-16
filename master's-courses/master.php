@@ -9,17 +9,12 @@
     $department=$_POST["department"];
     $stream=$_POST["stream"];
     $session=$_POST["session"];
-    
-
-
+  
     $query = "INSERT INTO master VALUES('','$student_name','$institution','$regisration_No','$department','$stream','$session')";
     mysqli_query($conn, $query);
     echo
     "
     <script>alert('Data Inserted Successfully')</script>";
-
-
-
   }
 ?> 
 
@@ -92,14 +87,12 @@
                     <input
                       id="session"
                       name="session"
-                    
                       placeholder="Enter Session..."
                     />
                   </div>
                 </div> 
                 <div class="button_container">
                   <button type="submit" id="sumbit" name="submit">Submit</button>
-                  
                 </div>
         </form>
 </div>

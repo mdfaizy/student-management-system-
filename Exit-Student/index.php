@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -101,20 +101,14 @@
                     </div>
                     <div class="exit-s">
                         <p><input type="submit" class="w3-btn w3-teal" name="file_submit" value="SUBMIT"></p>
-                        <!-- <span class="title"> Master's Courses</span> -->
+
                         <ul class="ul">
                             <li><a class="master" href="../Master's Courses/master.html">Master's</a></li>
                             <li><a class="job" href="../Job/job.html">Job </a></li>
                         </ul>
                     </div>
-                   
-
-
-                    <!-- </div>  -->
-
-                    <!-- </div> -->
         </form>
  </div>
 </body>
 
-</html>
+</html> -->
